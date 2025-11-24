@@ -1,0 +1,19 @@
+# RaceIQ Pro - Python Dependencies
+# =================================
+
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Excel File Support
+openpyxl>=3.1.0
+
+# Parquet File Support (for aggregated telemetry)
+pyarrow>=12.0.0
+
+# Web Application Framework
+streamlit>=1.28.0
+
+# Optional: For better performance
+# fastparquet>=2023.0.0  # Alternative Parquet engine (optional)
+
